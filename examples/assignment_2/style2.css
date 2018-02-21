@@ -1,0 +1,34 @@
+/*
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'BioRhyme Expanded', serif;
+    font-family: 'Anton', sans-serif;
+ */
+.greentext {
+  color: green;
+}
+.biorhyme {
+  font-family: 'BioRhyme Expanded', serif;
+}
+.largetext { font-size: 30px; }
+.mediumtext { font-size: 20px; }
+.smalltext { font-size: 10px;}
+.redtext { color: red;}
+.alignright { text-align: right;}
+
+#maintitle {
+  text-decoration: underline;
+  color: red;
+  font-family: 'Indie Flower', cursive;
+}
+
+a {
+  color: brown;
+  text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+font-size: 30px;
+}
+a:visited {
+ }
