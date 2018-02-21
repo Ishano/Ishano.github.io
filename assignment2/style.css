@@ -17,8 +17,8 @@
 .smalltext { font-size: 12px;}
 .bluetext { color: blue;}
 .alignright { text-align: right;}
-.greentext {color: green;}
-.redtext {color: red;}
+.greentext { color: green;}
+.redtext { color: red;}
 
 #maintitle {
   text-decoration: underline;
