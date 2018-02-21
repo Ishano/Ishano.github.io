@@ -11,21 +11,6 @@
   font-family: 'Mukta Mahee', sans-serif;
 }
 
-.nunum {
-  font-family: 'Nanum Pen Script', cursive;
-}
-
-.Roboto {
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-.anton {
-    font-family: 'Anton', sans-serif;
-}
-
-.allan {
-    font-family: 'Allan', cursive;
-}
 
 .largetext { font-size: 50px; }
 .mediumtext { font-size: 25px; }
@@ -33,6 +18,7 @@
 .bluetext { color: blue;}
 .alignright { text-align: right;}
 .greentext {color: green;}
+.redtext {color: red;}
 
 #maintitle {
   text-decoration: underline;
