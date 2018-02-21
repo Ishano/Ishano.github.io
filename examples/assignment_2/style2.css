@@ -8,27 +8,27 @@
   color: green;
 }
 .biorhyme {
-  font-family: 'BioRhyme Expanded', serif;
+  font-family: 'BioRhyme Expanded', sans-serif;
 }
 .largetext { font-size: 50px; }
 .mediumtext { font-size: 25px; }
 .smalltext { font-size: 12px;}
-.redtext { color: red;}
+.bluetext { color: blue;}
 .alignright { text-align: right;}
 
 #maintitle {
   text-decoration: underline;
-  color: red;
+  color: blue;
   font-family: 'Indie Flower', cursive;
 }
 
 a {
-  color: brown;
+  color: red;
   text-decoration: none;
 }
 a:hover {
 text-decoration: underline;
-font-size: 30px;
+font-size: 40px;
 }
 a:visited {
  }
