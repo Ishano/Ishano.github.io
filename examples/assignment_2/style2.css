@@ -10,9 +10,9 @@
 .biorhyme {
   font-family: 'BioRhyme Expanded', serif;
 }
-.largetext { font-size: 30px; }
-.mediumtext { font-size: 20px; }
-.smalltext { font-size: 10px;}
+.largetext { font-size: 50px; }
+.mediumtext { font-size: 25px; }
+.smalltext { font-size: 12px;}
 .redtext { color: red;}
 .alignright { text-align: right;}
 
