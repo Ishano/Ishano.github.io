@@ -23,6 +23,12 @@
   font-family: 'Nanum Pen Script', cursive;
 }
 
+#Biography {
+  text-decoration: underline;
+  color: red;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 a {
   color: red;
   text-decoration: none;
