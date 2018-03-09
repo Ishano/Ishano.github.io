@@ -6,6 +6,18 @@
 .medium-txt { color: #FF6708; }
 .light-txt { colorL #FFA066; }
 
+.gallery {
+  display: block;
+}
+
+.gallery ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.gallery li {
+
+}
 /* A comment */
 body {
  padding: 0;
