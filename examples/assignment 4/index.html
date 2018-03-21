@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>How to draw</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+    $(function(){
+        $('#mainTitle').click(function(){
+      //alert( "Handler for .click () called." );
+        $('#mainImage').hide();
+    });
+    $('#otherTitle').click(function(){
+      //alert( "Handler for .click () called." );
+        $('#mainImage').show();
+      });
+  });
+  </script>
+
+  </head>
+  <body>
+    <h1 id="mainTitle" class="pageName">Page title</h1>
+    <img id="mainImage" src="http://placehold.it/200x200" alt="">
+  </body>
+</html>
