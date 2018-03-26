@@ -17,6 +17,10 @@ $('#howTo li').hide();
   $('#getStarted').on('click', function(){
       $('.hide').show();
       $('#getStarted').hide();
+
+      $('#finish').on('click', function(){
+          $('.hide, #next, #previous, #finish').hide();
+        // to do more....
     });
   $('#next').on('click', function(){
     var currentItem = $('li.active');
