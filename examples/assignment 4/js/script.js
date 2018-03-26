@@ -13,6 +13,11 @@ $('#howTo li').hide();
   $('#title').on('mouseleave', function(){
     $('.fa-arrow-alt-circle-left').toggleClass('fa-arrow-alt-circle-right');
   });
+
+  $('#getStarted').on('click', function(){
+      $('.hide').show();
+      $('#getStarted').hide();
+    });
   $('#next').on('click', function(){
     var currentItem = $('li.active');
     var nextItem = $('li.active').next();
@@ -40,10 +45,18 @@ $('#previous').on('click', function(){
   var currentItem = $('li.active');
   var nextItem = $('li.active').next();
   //Position based selectors:
-  //first() httpsL//api.jquery.com/first/
-  // last () https://api.jquery.com/last/
-  // prev( Do)
+  //first() https://api.jquery.com/first/
+  // last() https://api.jquery.com/last/
+  // prev()
   currentItem.toggleClass('active');
+
+  if($('li').last().hasClass('active')) {
+    $('#next').hide();
+    $('#finish').show();
+  } else {
+    $('#next').show();
+
+  }
 
   nextItem.toggleClass('active');
 // Conditional eval.
