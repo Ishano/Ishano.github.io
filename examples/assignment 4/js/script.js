@@ -1,7 +1,7 @@
 $(function(){
 //Hide stuff
 
-$('getStarted, #finish, #previous').hide();
+$('getStarted, #finish, #previous, .hide, #survey').hide();
 $('#howTo li').hide();
 
 
