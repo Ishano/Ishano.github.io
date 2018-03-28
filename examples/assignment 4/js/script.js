@@ -20,6 +20,7 @@ $('#howTo li').hide();
 
       $('#finish').on('click', function(){
           $('.hide, #next, #previous, #finish').hide();
+          $('#survey').show();
         // to do more....
     });
   $('#next').on('click', function(){
