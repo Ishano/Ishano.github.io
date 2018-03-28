@@ -10,20 +10,29 @@ $('#howTo li').hide();
     $('.fa-arrow-alt-circle-left').toggleClass('fa-arrow-alt-circle-right');
     $('getStarted').show();
   });
-  $('#title').on('mouseleave', function(){
+  $('#title').on('mouseleave',function(){
     $('.fa-arrow-alt-circle-left').toggleClass('fa-arrow-alt-circle-right');
   });
 
-  $('#getStarted').on('click', function(){
+  $('#getStarted').on('click',function(){
       $('.hide').show();
       $('#getStarted').hide();
 
-      $('#finish').on('click', function(){
+      $('#finish').on('click',function(){
           $('.hide, #next, #previous, #finish').hide();
           $('#survey').show();
         // to do more....
     });
-  $('#next').on('click', function(){
+
+    ///survey
+    $('#yes').on('click',function(){
+      $('#surveytitle').css("background-color","green")
+      $('#survey').css("border","1px solid green", "background":"#ccc"
+    });
+});
+    $('#no').on('click',function(){
+    });
+  $('#next').on('click',function(){
     var currentItem = $('li.active');
     var nextItem = $('li.active').next();
 
