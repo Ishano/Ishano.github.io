@@ -1,0 +1,10 @@
+#howTo li { display: none; }
+#howTo li.active { display: block; }
+
+.largetext { font-size: 50px; }
+.mediumtext { font-size: 25px; }
+.smalltext { font-size: 12px;}
+.bluetext { color: blue;}
+.alignright { text-align: right;}
+.greentext { color: green;}
+.redtext { color: red;}
