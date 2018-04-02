@@ -1,15 +1,16 @@
 $(function(){
 //Hide stuff
 
-$('getStarted, #finish, #previous, .hide, #survey').hide();
+$('#getStarted, #finish, #previous, .hide, #survey').hide();
 $('#howTo li').hide();
 
 
   //alert("hello");
   $('#title').on('mouseover', function(){
     $('.fa-arrow-alt-circle-left').toggleClass('fa-arrow-alt-circle-right');
-    $('getStarted').show();
+    $('#getStarted').show();
   });
+
   $('#title').on('mouseleave',function(){
     $('.fa-arrow-alt-circle-left').toggleClass('fa-arrow-alt-circle-right');
   });
@@ -17,6 +18,8 @@ $('#howTo li').hide();
   $('#getStarted').on('click',function(){
       $('.hide').show();
       $('#getStarted').hide();
+    });
+
 
       $('#finish').on('click',function(){
           $('.hide, #next, #previous, #finish').hide();
@@ -27,9 +30,9 @@ $('#howTo li').hide();
     ///survey
     $('#yes').on('click',function(){
       $('#surveytitle').css("background-color","green")
-      $('#survey').css("border","1px solid green", "background":"#ccc"
+      $('#survey').css({"border":"1px solid green", "background":"#ccc"});
     });
-});
+
     $('#no').on('click',function(){
     });
   $('#next').on('click',function(){
@@ -81,4 +84,5 @@ $('#previous').on('click', function(){
     $('#next').show();
 
   }
+});
 });
