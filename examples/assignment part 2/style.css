@@ -1,0 +1,16 @@
+// Modifying CSS with css() https://api.jquery.com/css/
+          $(document).on('click', '.no', function(){
+            $('h2').css({ 'background-color' : 'red' });
+            $('li').css({ 'border-color' : 'red' });
+            $('body').css({'background' : 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTex8cEctKfmeWGxSi0Rer-57fiFkdj28ug7f_LefscGZgS-ynejg)'});
+          });
+          $(document).on('click', '.yes', function(){
+            $('h2').css({ 'background-color' : 'green' });
+            $('li').css({ 'border-color' : 'green' });
+            $('body').css({'background' : 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS77K6OToUovMOoDZWcfIpunO-fvOZsIQc1Y-7RWMb8h36gIq-v)'});
+          });
+  });
+  </script>
+
+  <style>
+  </style>

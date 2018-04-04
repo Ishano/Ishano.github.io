@@ -2,7 +2,7 @@ $(function(){
 //Hide stuff
 
 $('#getStarted, #finish, #previous, .hide, #survey').hide();
-$('#howTo li').hide();
+
 
 
   //alert("hello");
@@ -56,7 +56,12 @@ $('#howTo li').hide();
       $('#next').show();
 
     }
-});
+    if($('li').first().hasClass('active')) {
+            $('#previous').hide();
+          } else {
+            $('#previous').show();
+          }
+          });
 
 $('#previous').on('click', function(){
   var currentItem = $('li.active');
