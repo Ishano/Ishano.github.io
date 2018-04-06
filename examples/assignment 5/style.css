@@ -65,3 +65,11 @@ body {
       -ms-transform: rotate(-27.5deg);
     transform: rotate(-27.5deg);
   display: inline-block;}
+
+  .largetext { font-size: 50px; }
+  .mediumtext { font-size: 25px; }
+  .smalltext { font-size: 12px;}
+  .bluetext { color: blue;}
+  .alignright { text-align: right;}
+  .greentext { color: green;}
+  .redtext { color: red;}
